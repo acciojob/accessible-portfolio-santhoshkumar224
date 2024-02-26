@@ -7,21 +7,43 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<h1>This is heading tag</h1>
-	<ul>
-		<li>HI</li>
-		<li>HELLO</li>
-		<li>NAMASTE</li>
-	</ul>
-	<nav> 
-		<a href="#HTML">HTML</a>
-		<a href="#CSS">CSS</a>
-		<a href="#JS">JS</a>
-	</nav>
-	<img src="D:\@Mine\Snapchat-2102974966.jpg" alt = "MY pic">
-    <script type="text/javascript" src="./script.js">
-</script>
+<header role="heading">
+  <h1>My Portfolio</h1>
+</header>
+
+<nav role="navigation">
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="profile.jpg" alt="My Profile Picture" role="img">
+    <p>I am a passionate web developer with expertise in creating accessible websites.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul role="list">
+      <li role="listitem">Project 1</li>
+      <li role="listitem">Project 2</li>
+      <li role="listitem">Project 3</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>You can reach out to me via email at example@example.com.</p>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+</footer>
 
 </body>
 
